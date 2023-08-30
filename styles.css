@@ -14,7 +14,24 @@ h2 {
   font-size: 25px;
 }
 
-.index-container {
+li {
+  font-family: 'Courier New', 'Lucida Console', monospace; 
+  color: #d0afdb;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a {
   color: black;
+}
+
+.choc-para {
+  color: blueviolet;
   background-color: beige;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  align-items: center;
 }
