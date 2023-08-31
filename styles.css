@@ -1,5 +1,6 @@
 * {
-  background-color: #afdbd1;
+  /*background-color: #afdbd1;*/
+  box-sizing: border-box;
 }
 
 h1 {
@@ -7,6 +8,12 @@ h1 {
   font-family: Verdana, Tahoma, sans-serif;
   font-weight: bolder;
   font-size: 35px;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  border: 5px solid black;
+  background-color: rgb(90, 20, 100);
 }
 
 h2 {
@@ -31,3 +38,19 @@ a {
   font-size: 20px;
   font-weight: bold;
 }
+
+.never {
+  background-color: yellow;
+  color: black;
+}
+
+/*.index-title {
+  color: rgb(42, 167, 200);
+  background-color: rgb(78, 14, 100);
+  height: 150px;
+  width: 200px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  
+}*/
